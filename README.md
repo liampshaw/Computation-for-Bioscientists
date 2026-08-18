@@ -16,15 +16,17 @@ If you want to use Colab, the following link should open the first notebook from
 
 ### Option B — Jupyter notebooks on your laptop (via ```uv```)
 
-In this option, you will be running the code on your own computer. This means you need to install a few things to make it work first. The first step is to install a package manager called ```uv``` (software that will help us install the other things we need). How you do this depends on whether you have a Windows or Mac/Linux computer. 
+In this option, you will be running the code on your own computer. You will still access it via your web browser, but this means you need to install a few things to make it work first. The first step is to install a package manager called ```uv``` (software that will help us install the other things we need). How you do this depends on whether you have a Windows or Mac/Linux computer. 
 
-**Installation on Windows**
+#### Installation on Windows
+
 Open your Command Prompt and run:
 ```
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-**Installation on Mac/Linux** 
+#### Installation on Mac/Linux 
+
 Open Terminal and run:
 ```
 curl -Ls https://astral.sh/uv/install.sh | bash
@@ -34,10 +36,32 @@ curl -Ls https://astral.sh/uv/install.sh | bash
 Check that the installation of ```uv``` worked by typing ```uv --version```, then pressing enter. You may need to restart your terminal for the changes to take effect. If this returns an error, then ```uv``` was not installed properly.
 
 **Move into Project Directory**
+
 To set up your Python environment, you need to be in your project directory. Follow these steps:
 
 1. Open your terminal.
 2. Create or navigate to your project directory.
 
 **Create a Virtual Environment**
+
 Enter the following command to create a minimal virtual environment:
+```
+uv init --bare
+```
+
+**Install Python packages**
+
+We will need ```jupyterlab``` to edit the notebooks. This can be added to your project with the command:
+```
+uv add jupyterlab
+```
+
+
+**Open JupyterLab**
+
+Now you can open JupyerLab
+```
+uv run jupyter lab
+```
+
+In JupyterLab, you should be able to open the first notebook of the course by clicking File -> Open from URL... and then pasting the following url: ```https://raw.githubusercontent.com/liampshaw/Computation-for-Bioscientists/main/notebooks/00_introduction.ipynb```. Alternatively, you can download the notebook file to your computer, save it, and then open the version on your computer. 
