@@ -10,9 +10,11 @@ Jupyter Notebooks are interactive documents that allow you to combine executable
 
 ### Option A — Google Colab (recommended)
 
-Google Colab is a free cloud‑based platform that lets you write and run Python code directly in your web browser. It requires a Google account to use. It provides an environment that can be used to interact with Jupyter Notebooks, but without the need to install Python or any additional software on your computer. This makes it an ideal starting point for doing coding without any installation on your own computer. 
+Google Colab is a free cloud‑based platform that lets you write and run Python code directly in your web browser. **It requires a Google account to use.** Colab provides an environment that can be used to interact with Jupyter Notebooks, but without the need to install Python or any additional software on your computer. This makes it an ideal starting point for doing coding without any installation on your own computer. 
 
-If you want to use Colab, the following link should open the first notebook from the course: [first notebook](https://colab.research.google.com/github/liampshaw/Computation-for-Bioscientists/blob/main/notebooks/00_introduction.ipynb)
+If you want to use Google Colab, you can go to [https://colab.research.google.com/](https://colab.research.google.com/) and (once signed in to a Google account) you can click "+ New notebook" to start a new notebook, or "Upload notebook" to upload an existing notebook. The following link should open the first notebook from the course: [first notebook](https://colab.research.google.com/github/liampshaw/Computation-for-Bioscientists/blob/main/notebooks/00_introduction.ipynb). 
+
+As the course goes on, you will be able to save the notebooks to your Google Drive and access previous notebooks. 
 
 ### Option B — Jupyter notebooks on your laptop (via ```uv```)
 
@@ -64,4 +66,4 @@ Now you can open JupyerLab
 uv run jupyter lab
 ```
 
-In JupyterLab, you should be able to open the first notebook of the course by clicking File -> Open from URL... and then pasting the following url: ```https://raw.githubusercontent.com/liampshaw/Computation-for-Bioscientists/main/notebooks/00_introduction.ipynb```. Alternatively, you can download the notebook file to your computer, save it, and then open the version on your computer. 
+In JupyterLab, you should be able to open the first notebook of the course by clicking File -> Open from URL... and then pasting the following url: ```https://raw.githubusercontent.com/liampshaw/Computation-for-Bioscientists/main/notebooks/00_introduction.ipynb```. Alternatively, you can download the notebook file to your computer, save it, and then open the version on your computer. You can also open a new notebook and start to do your own work and save files.
