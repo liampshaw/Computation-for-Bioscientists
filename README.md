@@ -1,6 +1,7 @@
 # Computation for Bioscientists
 Resource for bioinformatics block of Bristol teaching unit.
 
+
 ### Getting started
 
 N.B. Setup details borrowed from [here](https://bristol-training.github.io/data-analysis-python-1/pages/00_setup.html).
