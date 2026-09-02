@@ -13,18 +13,35 @@ There are two options as to how to use notebooks.
 
 Google Colab is a free cloud‑based platform that lets you write and run Python code directly in your web browser. **It requires a Google account to use.** Colab provides an environment that can be used to interact with Jupyter Notebooks, but without the need to install Python or any additional software on your computer. This makes it an ideal starting point for doing coding without any installation on your own computer. 
 
-If you want to use Google Colab, you can go to [https://colab.research.google.com/](https://colab.research.google.com/) and (once signed in to a Google account) you can click "+ New notebook" to start a new notebook, or "Upload notebook" to upload an existing notebook.
+If you want to use Google Colab, you can go to [https://colab.research.google.com/](https://colab.research.google.com/) and (once signed in to a Google account) the page should look something like this:
 
 ![image](images/google-colab-start-page.png) 
 
-You can also open existing notebooks using links. For example, the following link should open the first notebook from the course: [first notebook](https://colab.research.google.com/github/liampshaw/Computation-for-Bioscientists/blob/main/notebooks/00_introduction.ipynb). 
+You can click "+ New notebook" to start a new notebook, or "Upload notebook" to open/upload an existing notebook.
 
-**For instructors:** To open a notebook stored on github in Colab, you need to give the link to the 'raw' content. The link will be something like `https://colab.research.google.com/github/USERNAME/REPO/blob/main/path/to/notebook.ipynb`. 
+### Starting a new notebook
+
+If you click "+ New notebook" it should load a new notebook which looks something like this:
+
+![image](images/google-colab-new-notebook.png)
+
+By default, this notebook will be saved in the Google Drive of the Google account you are signed into. You can change the filename to something more useful than `Untitled0.ipynb` by clicking on the filename in the top left and editing it.  
+
+If you want to download the notebook - for example, to save it to your own computer - you can do this by clicking "File". 
+
+![image](images/google-colab-download-notebook.png)
 
 As the course goes on, you will be able to save the notebooks to your Google Drive and access previous notebooks. 
 
+### Opening existing notebooks
 
+Once you have some notebooks saved in your Drive, you should see them on your start page when you open [https://colab.research.google.com/](https://colab.research.google.com/). You can also open a notebook by clicking "Upload notebook" and then choosing from the options there.
+ 
+Another way to open an existing notebook is by using a url. For example, the following link should open the first notebook from the course: [first notebook](https://colab.research.google.com/github/liampshaw/Computation-for-Bioscientists/blob/main/notebooks/00_introduction.ipynb). You can then save a copy of this notebook to your Google Drive:
 
+![image](images/google-colab-copy-github-notebook)
+
+**For instructors:** To link a notebook stored on github to Colab, you need to give the link to the 'raw' content. The link will be something like `https://colab.research.google.com/github/USERNAME/REPO/blob/main/path/to/notebook.ipynb`. 
 
 
 ## Option B — Jupyter notebooks on your laptop (via ```uv```)
