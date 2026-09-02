@@ -7,9 +7,9 @@ N.B. Setup details borrowed from [here](https://bristol-training.github.io/data-
 
 Jupyter Notebooks are interactive documents that allow you to combine executable Python code, text, visuals, and equations in a single place. They run code in small, editable “cells,” making it easy to experiment, get immediate feedback, and document your reasoning as you go.     This format is especially useful for learning and teaching, as it supports step‑by‑step exploration and clear explanations alongside the code.
 
-There are two options as to how to use notebooks.
+There are two options as to how to use notebooks. Option 1 is to use Google Colab. This is the recommended option as you don't need to install anything on your computer. Option 2 is to install Python on your computer (see below). 
 
-## Option A — Google Colab (recommended)
+## Option 1 — Google Colab (recommended)
 
 Google Colab is a free cloud‑based platform that lets you write and run Python code directly in your web browser. **It requires a Google account to use.** Colab provides an environment that can be used to interact with Jupyter Notebooks, but without the need to install Python or any additional software on your computer. This makes it an ideal starting point for doing coding without any installation on your own computer. 
 
@@ -44,7 +44,7 @@ Another way to open an existing notebook is by using a url. For example, the fol
 **For instructors:** To link a notebook stored on github to Colab, you need to give the link to the 'raw' content. The link will be something like `https://colab.research.google.com/github/USERNAME/REPO/blob/main/path/to/notebook.ipynb`. 
 
 
-## Option B — Jupyter notebooks on your laptop (via ```uv```)
+## Option 2 — Jupyter notebooks on your laptop (via ```uv```)
 
 In this option, you will be running the code on your own computer. You will still access it via your web browser, but this means you need to install a few things to make it work first. The first step is to install a package manager called ```uv``` (software that will help us install the other things we need). How you do this depends on whether you have a Windows or Mac/Linux computer. 
 
