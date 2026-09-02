@@ -94,6 +94,8 @@ Now you can open JupyerLab
 uv run jupyter lab
 ```
 
+This should open a page in your browser that looks something like this:
+
+![image](jupyter-landing-page.png)
+
 In JupyterLab, you should be able to open the first notebook of the course by clicking File -> Open from URL... and then pasting the following url: ```https://raw.githubusercontent.com/liampshaw/Computation-for-Bioscientists/main/notebooks/00_introduction.ipynb```. Alternatively, you can download the notebook file to your computer, save it, and then open the version on your computer. You can also open a new notebook and start to do your own work and save files.
-
-
