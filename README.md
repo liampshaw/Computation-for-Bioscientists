@@ -39,7 +39,7 @@ Once you have some notebooks saved in your Drive, you should see them on your st
  
 Another way to open an existing notebook is by using a url. For example, the following link should open the first notebook from the course: [first notebook](https://colab.research.google.com/github/liampshaw/Computation-for-Bioscientists/blob/main/notebooks/00_introduction.ipynb). You can then save a copy of this notebook to your Google Drive:
 
-![image](images/google-colab-copy-github-notebook)
+![image](images/google-colab-copy-github-notebook.png)
 
 **For instructors:** To link a notebook stored on github to Colab, you need to give the link to the 'raw' content. The link will be something like `https://colab.research.google.com/github/USERNAME/REPO/blob/main/path/to/notebook.ipynb`. 
 
